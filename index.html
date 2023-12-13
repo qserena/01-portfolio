@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Portfolio</title>
+		<meta name="description" content="Portfolio for Tom Serenander" />
+
+		<link rel="stylesheet" href="css/style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__content">
+				<div class="header__logo-container">
+					<a href="./index.html">
+						<div class="header__logo-img-cont">
+							<img
+								src="./assets/img/Tom.png"
+								alt="Tom Serenander Logo Image"
+								class="header__logo-img"
+							/>
+						</div>
+						<span class="header__logo-sub">Tom Serenander</span>
+					</a>
+				</div>
+				<div class="header__main">
+					<ul class="header__links">
+						<li class="header__link-wrapper">
+							<a href="./index.html" class="header__link">
+								Home
+							</a>
+						</li>
+						<li class="header__link-wrapper">
+							<a
+								href="./index.html#projects"
+								class="header__link"
+							>
+								Projects
+							</a>
+						</li>
+						<li class="header__link-wrapper">
+							<a href="./index.html#about" class="header__link"
+								>About
+							</a>
+						</li>
+						<li class="header__link-wrapper">
+							<a href="./index.html#contact" class="header__link">
+								Contact
+							</a>
+						</li>
+					</ul>
+					<div class="header__main-ham-menu-cont">
+						<img
+							src="./assets/svg/ham-menu.svg"
+							alt="hamburger menu"
+							class="header__main-ham-menu"
+						/>
+						<img
+							src="./assets/svg/ham-menu-close.svg"
+							alt="hamburger menu close"
+							class="header__main-ham-menu-close d-none"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="header__sm-menu">
+				<div class="header__sm-menu-content">
+					<ul class="header__sm-menu-links">
+						<li class="header__sm-menu-link">
+							<a href="./index.html"> Home </a>
+						</li>
+
+						<li class="header__sm-menu-link">
+							<a href="./index.html#about"> About </a>
+						</li>
+
+						<li class="header__sm-menu-link">
+							<a href="./index.html#projects"> Projects </a>
+						</li>
+
+						<li class="header__sm-menu-link">
+							<a href="./index.html#contact"> Contact </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section class="home-hero">
+			<div class="home-hero__content">
+				<h1 class="heading-primary">
+					Hey, My name is <br />Tom Serenander
+				</h1>
+				<div class="home-hero__info">
+					<p class="text-primary">
+						I am a passionate frontend developer based in Stockholm,
+						Sweden. My specialities are
+						<strong>React JS</strong> and <strong>.NET</strong>, and
+						I love building apps that feels good to use.
+					</p>
+				</div>
+				<div class="home-hero__cta">
+					<a href="./#projects" class="btn btn--bg"
+						>See my projects</a
+					>
+				</div>
+			</div>
+			<div class="home-hero__socials">
+				<div class="home-hero__social">
+					<a href="#" class="home-hero__social-icon-link">
+						<img
+							src="./assets/img/linkedin-ico.png"
+							alt="icon"
+							class="home-hero__social-icon"
+						/>
+					</a>
+				</div>
+				<div class="home-hero__social">
+					<a href="#" class="home-hero__social-icon-link">
+						<img
+							src="./assets/img/github-ico.png"
+							alt="icon"
+							class="home-hero__social-icon"
+						/>
+					</a>
+				</div>
+				<div class="home-hero__social">
+					<a href="#" class="home-hero__social-icon-link">
+						<img
+							src="./assets/img/twitter-ico.png"
+							alt="icon"
+							class="home-hero__social-icon"
+						/>
+					</a>
+				</div>
+				<div class="home-hero__social">
+					<a
+						href="#"
+						class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+					>
+						<img
+							src="./assets/img/insta-ico.png"
+							alt="icon"
+							class="home-hero__social-icon"
+						/>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="projects sec-pad">
+			<div class="main-container">
+				<h2 class="heading heading-sec heading-sec__mb-bg">
+					<span class="heading-sec__main">Projects</span>
+					<span class="heading-sec__sub">
+						All my projects include links to the code and live
+						version. Click the button to learn more about each one.
+					</span>
+				</h2>
+
+				<div class="projects__content">
+					<div class="projects__row">
+						<div class="projects__row-img-cont">
+							<a href="./project-1.html"
+								><img
+									src="./assets/img/travel-journal.png"
+									alt="Software Screenshot"
+									class="projects__row-img"
+									loading="lazy"
+							/></a>
+						</div>
+						<div class="projects__row-content">
+							<h3 class="projects__row-content-title">
+								Travel Journal
+							</h3>
+							<p class="projects__row-content-desc">
+								A presentation of some of my travel
+								destinations. Including a short presentation and
+								google map links.
+							</p>
+							<a
+								href="./project-1.html"
+								class="btn btn--med btn--theme dynamicBgClr"
+								>Learn more</a
+							>
+						</div>
+					</div>
+
+					<div class="projects__row">
+						<div class="projects__row-img-cont">
+							<a href="./project-2.html"
+								><img
+									src="./assets/img/components.png"
+									alt="Software Screenshot"
+									class="projects__row-img"
+									loading="lazy"
+							/></a>
+						</div>
+						<div class="projects__row-content">
+							<h3 class="projects__row-content-title">
+								React Component Library
+							</h3>
+							<p class="projects__row-content-desc">
+								An exercise in building the following reusable
+								React components: Badge, Banner, Card and
+								Testimonial.
+							</p>
+							<a
+								href="./project-2.html"
+								class="btn btn--med btn--theme dynamicBgClr"
+								>Learn more</a
+							>
+						</div>
+					</div>
+
+					<div class="projects__row">
+						<div class="projects__row-img-cont">
+							<a href="./project-3.html"
+								><img
+									src="./assets/img/vanlife.png"
+									alt="Software Screenshot"
+									class="projects__row-img"
+									loading="lazy"
+							/></a>
+						</div>
+						<div class="projects__row-content">
+							<h3 class="projects__row-content-title">
+								Van Life
+							</h3>
+							<p class="projects__row-content-desc">
+								A way for people to rent out their camper vans.
+								Built with React Router 6 to manage client-side
+								routing, with login functionality.
+							</p>
+							<a
+								href="./project-3.html"
+								class="btn btn--med btn--theme dynamicBgClr"
+								>Learn more</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="about sec-pad">
+			<div class="main-container">
+				<h2 class="heading heading-sec heading-sec__mb-med">
+					<span class="heading-sec__main">About Me</span>
+					<span class="heading-sec__sub">
+						<p>
+							I'm a frontend developer based out of Stockholm,
+							Sweden. I love building apps that solve real-world
+							problems, and that are delightful to use. My
+							specialities include JavaScript, React JS and
+							Microsoft .NET.
+						</p>
+					</span>
+				</h2>
+				<div class="about__content">
+					<div class="about__content-main">
+						<h3 class="about__content-title">Get to know me!</h3>
+						<div class="about__content-details">
+							<p class="about__content-details-para">
+								My background is working as an IT Consultant in
+								a number of industries, including: Insurance,
+								Transport, Pharmaceutical, Manufacturing,
+								Automotive, and Telecom Industry.
+							</p>
+							<p class="about__content-details-para">
+								I have a Master of Science degree in Engineering
+								Physics from the Royal Institute of Technology,
+								Stockholm. When I'm not coding, I take a walk
+								with my family's Golden Retriever.
+							</p>
+						</div>
+						<a
+							href="./#contact"
+							class="btn btn--med btn--theme dynamicBgClr"
+							>Contact</a
+						>
+					</div>
+					<div class="about__content-skills">
+						<h3 class="about__content-title">My Skills</h3>
+						<div class="skills">
+							<div class="skills__skill">HTML</div>
+							<div class="skills__skill">CSS</div>
+							<div class="skills__skill">JavaScript</div>
+							<div class="skills__skill">React</div>
+							<div class="skills__skill">C#</div>
+							<div class="skills__skill">.NET</div>
+							<div class="skills__skill">Git</div>
+							<div class="skills__skill">Figma</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact sec-pad dynamicBg">
+			<div class="main-container">
+				<h2 class="heading heading-sec heading-sec__mb-med">
+					<span class="heading-sec__main heading-sec__main--lt"
+						>Contact</span
+					>
+					<span class="heading-sec__sub heading-sec__sub--lt">
+						Please reach out if you have any questions! I'm happy to
+						jump on a video call to brainstorm projects and ideas.
+						Send me an email at tom@serenander.se
+					</span>
+				</h2>
+			</div>
+		</section>
+		<footer class="main-footer">
+			<div class="main-container">
+				<div class="main-footer__upper">
+					<div class="main-footer__row main-footer__row-1">
+						<h2 class="heading heading-sm main-footer__heading-sm">
+							<span>Social</span>
+						</h2>
+						<div class="main-footer__social-cont">
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.linkedin.com/in/tom-serenander-4a09bb1a/"
+							>
+								<img
+									class="main-footer__icon"
+									src="./assets/img/linkedin-ico.png"
+									alt="icon"
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://github.com/qserena"
+							>
+								<img
+									class="main-footer__icon"
+									src="./assets/img/github-ico.png"
+									alt="icon"
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://twitter.com/tomserenander"
+							>
+								<img
+									class="main-footer__icon"
+									src="./assets/img/twitter-ico.png"
+									alt="icon"
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.instagram.com/tomserenander/"
+							>
+								<img
+									class="main-footer__icon main-footer__icon--mr-none"
+									src="./assets/img/insta-ico.png"
+									alt="icon"
+								/>
+							</a>
+						</div>
+					</div>
+					<div class="main-footer__row main-footer__row-2">
+						<h4 class="heading heading-sm text-lt">
+							Tom Serenander
+						</h4>
+						<p class="main-footer__short-desc">
+							Frontend Developer
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
