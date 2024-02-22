@@ -11,6 +11,7 @@ This website includes presentations of three coding projects, contact informatio
 ## Technologies
 - HTML
 - CSS
+- JavaScript
 
 ## Live link
 The website is deployed here:
