@@ -6,7 +6,7 @@ An exercise in the Scrimba course "Frontend Developer Career Path" to do your ow
 This website includes presentation of three coding projects, contact information etc.
 
 <br/>
-<img src="portfolio.png" alt="Screenshot." width="300px"/>
+<img src="portfolio.png" alt="Screenshot." width="400px"/>
 
 ## Technologies
 - HTML
