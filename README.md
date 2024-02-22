@@ -3,7 +3,7 @@
 ## Description
 An exercise in the Scrimba course "Frontend Developer Career Path" to do your own Portfolio.
 
-This website includes presentation of three coding projects, contact information etc.
+This website includes presentations of three coding projects, contact information etc.
 
 <br/>
 <img src="portfolio.png" alt="Screenshot." width="400px"/>
