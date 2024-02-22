@@ -1,21 +1,21 @@
-# cobcf467188897bfd5c2695de
+# Portfolio
 
-Quick start:
+## Description
+A great help when shopping at the grocery store. Plan your shopping at home by adding items to the list. Then to remove from the list, click each item when you put it in the shopping cart.
 
-```
-$ npm install
-$ npm start
-````
+This is a web application but can easily be configured to act as a mobile app on your Android or iPhone by "Add to Home Screen" (see screenshot below). 
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+<br/>
+<img src="screen-shot.jpg" alt="Screenshot." width="300px"/>
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Firebase database
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Live link
+The app is deployed here:
+[https://mob-app-demo.netlify.app](https://mob-app-demo.netlify.app)
 
-Happy Coding!
+Please feel free to visit and click around!
