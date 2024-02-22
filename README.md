@@ -13,7 +13,7 @@ This website includes presentations of three coding projects, contact informatio
 - CSS
 
 ## Live link
-The app is deployed here:
+The website is deployed here:
 [https://tseren.netlify.app](https://tseren.netlify.app)
 
 Please feel free to visit and click around!
