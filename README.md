@@ -1,21 +1,20 @@
 # Portfolio
 
 ## Description
-A great help when shopping at the grocery store. Plan your shopping at home by adding items to the list. Then to remove from the list, click each item when you put it in the shopping cart.
+An exercise in the Scrimba course "Frontend Developer Career Path" to do your own Portfolio.
 
-This is a web application but can easily be configured to act as a mobile app on your Android or iPhone by "Add to Home Screen" (see screenshot below). 
+This website includes presentations of three coding projects, contact information etc.
 
 <br/>
-<img src="screen-shot.jpg" alt="Screenshot." width="300px"/>
+<img src="portfolio.png" alt="Screenshot." width="400px"/>
 
 ## Technologies
 - HTML
 - CSS
 - JavaScript
-- Firebase database
 
 ## Live link
-The app is deployed here:
-[https://mob-app-demo.netlify.app](https://mob-app-demo.netlify.app)
+The website is deployed here:
+[https://tseren.netlify.app](https://tseren.netlify.app)
 
 Please feel free to visit and click around!
